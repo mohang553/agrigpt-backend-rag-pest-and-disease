@@ -1,0 +1,411 @@
+[
+    {
+    "id": 1,
+    "difficulty": "easy",
+    "category": "diagnosis",
+    "question": "Raised corky wart-like lesions are seen on young citrus leaves during rainy season, without yellow halo. What is the disease?",
+    "ground_truth_answer": "Citrus Scab caused by Elsinoë fawcettii. It produces raised corky wart-like lesions without yellow halo and distorts young leaves and fruits.",
+    "source_sections": ["Citrus Scab"]
+    },
+    {
+    "id": 2,
+    "difficulty": "easy",
+    "category": "diagnosis",
+    "question": "Leaves show brown crater-like lesions surrounded by yellow halos after heavy rain. What disease is likely?",
+    "ground_truth_answer": "Citrus Canker caused by Xanthomonas citri. Lesions are corky, raised and surrounded by a distinct yellow halo.",
+    "source_sections": ["Citrus Canker"]
+    },
+    {
+    "id": 3,
+    "difficulty": "easy",
+    "category": "diagnosis",
+    "question": "Brown gum is oozing from the trunk base of a citrus tree and bark is rotting near soil line. What disease is this?",
+    "ground_truth_answer": "Phytophthora Gummosis (Foot Rot), a soil-borne disease causing gum exudation and bark rot near the collar region.",
+    "source_sections": ["Phytophthora Gummosis"]
+    },
+    {
+    "id": 4,
+    "difficulty": "easy",
+    "category": "treatment",
+    "question": "Which fungicide is recommended for citrus scab during monsoon flush?",
+    "ground_truth_answer": "Copper oxychloride (0.3%) or Carbendazim (0.1%) sprayed at flush emergence and repeated at 15–20 day intervals.",
+    "source_sections": ["Citrus Scab – Chemical Control"]
+    },
+    {
+    "id": 5,
+    "difficulty": "easy",
+    "category": "prevention",
+    "question": "What is the most important preventive step for citrus melanose?",
+    "ground_truth_answer": "Pruning and removing dead twigs, since the fungus survives and produces spores on dead wood.",
+    "source_sections": ["Citrus Melanose – Prevention"]
+    },
+    {
+    "id": 6,
+    "difficulty": "medium",
+    "category": "comparison",
+    "question": "How can a farmer differentiate citrus scab from citrus canker based on leaf symptoms?",
+    "ground_truth_answer": "Scab causes raised wart-like lesions without yellow halo and often distorts leaves. Canker causes crater-like lesions with a distinct yellow halo and does not distort leaves significantly.",
+    "source_sections": ["Citrus Scab", "Citrus Canker"]
+    },
+    {
+    "id": 7,
+    "difficulty": "medium",
+    "category": "mechanism",
+    "question": "Why does citrus leafminer infestation increase citrus canker incidence?",
+    "ground_truth_answer": "Leafminer feeding creates wounds that allow Xanthomonas bacteria to enter leaves more easily, increasing canker infection.",
+    "source_sections": ["Citrus Canker – Spread"]
+    },
+    {
+    "id": 8,
+    "difficulty": "medium",
+    "category": "diagnosis",
+    "question": "Roots are black, dry and fibrous without gum exudation. Tree shows decline after drought. What is likely?",
+    "ground_truth_answer": "Dry Root Rot caused by Fusarium or Diplodia species, characterized by dry, fibrous root decay without gum.",
+    "source_sections": ["Dry Root Rot"]
+    },
+    {
+    "id": 9,
+    "difficulty": "medium",
+    "category": "treatment",
+    "question": "What soil drench chemical is recommended for Phytophthora gummosis?",
+    "ground_truth_answer": "Metalaxyl + Mancozeb (Ridomil MZ) or phosphorous acid drenching around the root zone.",
+    "source_sections": ["Phytophthora Gummosis – Chemical Control"]
+    },
+    {
+    "id": 10,
+    "difficulty": "medium",
+    "category": "prevention",
+    "question": "How can irrigation practices reduce Phytophthora gummosis risk?",
+    "ground_truth_answer": "Avoid waterlogging and direct trunk contact with irrigation water; use proper drainage and drip irrigation.",
+    "source_sections": ["Phytophthora Gummosis – Prevention"]
+    },
+    
+    {
+    "id": 11,
+    "difficulty": "hard",
+    "category": "stress_test",
+    "question": "A citrus tree shows gum oozing at trunk base after monsoon and leaves turning yellow. However, roots are dry and fibrous. Which disease is more likely and why?",
+    "ground_truth_answer": "Phytophthora Gummosis is more likely due to gum exudation and monsoon conditions. Dry root rot lacks gum and usually follows drought stress.",
+    "source_sections": ["Phytophthora Gummosis", "Dry Root Rot"]
+    },
+    {
+    "id": 12,
+    "difficulty": "hard",
+    "category": "comparison",
+    "question": "Compare melanose and canker symptoms on citrus fruit.",
+    "ground_truth_answer": "Melanose causes small dark brown sandpaper-like superficial spots without halo. Canker causes raised corky lesions with yellow halo and possible fruit drop.",
+    "source_sections": ["Citrus Melanose", "Citrus Canker"]
+    },
+    {
+    "id": 13,
+    "difficulty": "medium",
+    "category": "mechanism",
+    "question": "Why is citrus scab more severe on young tissues?",
+    "ground_truth_answer": "Young leaves and fruits under 6–8 weeks are more susceptible to fungal infection.",
+    "source_sections": ["Citrus Scab – Spread"]
+    },
+    {
+    "id": 14,
+    "difficulty": "medium",
+    "category": "diagnosis",
+    "question": "Twig tips are dying and dead leaves remain hanging after prolonged rain. What disease is this?",
+    "ground_truth_answer": "Citrus Anthracnose (Wither Tip) caused by Colletotrichum species.",
+    "source_sections": ["Citrus Anthracnose"]
+    },
+    {
+    "id": 15,
+    "difficulty": "easy",
+    "category": "diagnosis",
+    "question": "Sandpaper-like rough brown spots appear on citrus fruit after rainy season. What disease is suspected?",
+    "ground_truth_answer": "Citrus Melanose.",
+    "source_sections": ["Citrus Melanose"]
+    },
+    
+    {
+    "id": 16,
+    "difficulty": "hard",
+    "category": "stress_test",
+    "question": "Fruit has raised lesions but no yellow halo and leaves are distorted. Farmer suspects canker. Is this correct?",
+    "ground_truth_answer": "No. Absence of yellow halo and leaf distortion indicate citrus scab, not canker.",
+    "source_sections": ["Citrus Scab vs Canker"]
+    },
+    {
+    "id": 17,
+    "difficulty": "medium",
+    "category": "treatment",
+    "question": "Which organic treatment can be used against Phytophthora gummosis?",
+    "ground_truth_answer": "Bordeaux mixture application and Trichoderma soil application.",
+    "source_sections": ["Phytophthora Gummosis – Organic Remedies"]
+    },
+    {
+    "id": 18,
+    "difficulty": "medium",
+    "category": "mechanism",
+    "question": "Why does melanose frequently occur in older unpruned orchards?",
+    "ground_truth_answer": "Because the fungus survives on dead twigs which are more abundant in unpruned orchards.",
+    "source_sections": ["Citrus Melanose"]
+    },
+    {
+    "id": 19,
+    "difficulty": "hard",
+    "category": "stress_test",
+    "question": "After drought, tree suddenly wilts when irrigation resumes. Roots show dry rot. What disease and what triggered it?",
+    "ground_truth_answer": "Dry Root Rot triggered by drought stress allowing opportunistic fungi like Fusarium to infect roots.",
+    "source_sections": ["Dry Root Rot"]
+    },
+    {
+    "id": 20,
+    "difficulty": "easy",
+    "category": "treatment",
+    "question": "What chemical combination is commonly recommended for citrus canker control?",
+    "ground_truth_answer": "Copper oxychloride combined with streptomycin (Streptocycline).",
+    "source_sections": ["Citrus Canker – Chemical Control"]
+    },
+    
+    {
+    "id": 21,
+    "difficulty": "medium",
+    "category": "prevention",
+    "question": "Why are windbreaks useful in citrus canker management?",
+    "ground_truth_answer": "They reduce wind-driven rain that spreads bacteria between trees.",
+    "source_sections": ["Citrus Canker – Prevention"]
+    },
+    {
+    "id": 22,
+    "difficulty": "medium",
+    "category": "mechanism",
+    "question": "What environmental conditions favor citrus scab outbreaks?",
+    "ground_truth_answer": "Humid, wet weather (20–30°C) during new flush growth.",
+    "source_sections": ["Citrus Scab"]
+    },
+    {
+    "id": 23,
+    "difficulty": "hard",
+    "category": "comparison",
+    "question": "Differentiate Phytophthora gummosis and dry root rot based on trunk symptoms.",
+    "ground_truth_answer": "Phytophthora causes water-soaked bark lesions and gum exudation. Dry root rot causes dry, cracked fibrous bark without gum.",
+    "source_sections": ["Phytophthora Gummosis", "Dry Root Rot"]
+    },
+    {
+    "id": 24,
+    "difficulty": "easy",
+    "category": "diagnosis",
+    "question": "Yellow halo around brown leaf lesion is most characteristic of which disease?",
+    "ground_truth_answer": "Citrus Canker.",
+    "source_sections": ["Citrus Canker"]
+    },
+    {
+    "id": 25,
+    "difficulty": "medium",
+    "category": "treatment",
+    "question": "How often should copper sprays be applied during monsoon for scab?",
+    "ground_truth_answer": "2–3 sprays at 15–20 day intervals during rainy flush.",
+    "source_sections": ["Citrus Scab – Chemical Control"]
+    },
+    
+    {
+    "id": 26,
+    "difficulty": "hard",
+    "category": "stress_test",
+    "question": "If a tree has dead wood and sandpaper fruit lesions but no yellow halo, what management priority should be applied?",
+    "ground_truth_answer": "Prune and remove dead wood and apply copper spray to manage melanose.",
+    "source_sections": ["Citrus Melanose"]
+    },
+    {
+    "id": 27,
+    "difficulty": "medium",
+    "category": "mechanism",
+    "question": "Why is drainage improvement critical in managing foot rot?",
+    "ground_truth_answer": "Because Phytophthora thrives in waterlogged soils and spreads via water.",
+    "source_sections": ["Phytophthora Gummosis"]
+    },
+    {
+    "id": 28,
+    "difficulty": "medium",
+    "category": "diagnosis",
+    "question": "What disease causes corky lesions but usually does not distort leaves?",
+    "ground_truth_answer": "Citrus Canker.",
+    "source_sections": ["Citrus Canker"]
+    },
+    {
+    "id": 29,
+    "difficulty": "hard",
+    "category": "stress_test",
+    "question": "Tree canopy thins gradually, no gum present, severe drought history. Which disease and what is first action?",
+    "ground_truth_answer": "Dry Root Rot. Improve irrigation and soil moisture management immediately.",
+    "source_sections": ["Dry Root Rot"]
+    },
+    {
+    "id": 30,
+    "difficulty": "easy",
+    "category": "diagnosis",
+    "question": "What is the causal organism of citrus scab?",
+    "ground_truth_answer": "Elsinoë fawcettii.",
+    "source_sections": ["Citrus Scab"]
+    },
+    
+    {
+    "id": 31,
+    "difficulty": "easy",
+    "category": "diagnosis",
+    "question": "What bacterium causes citrus canker?",
+    "ground_truth_answer": "Xanthomonas citri pv. citri.",
+    "source_sections": ["Citrus Canker"]
+    },
+    {
+    "id": 32,
+    "difficulty": "medium",
+    "category": "mechanism",
+    "question": "Why does fruit drop increase in severe citrus canker infection?",
+    "ground_truth_answer": "Extensive lesions weaken fruit attachment and cause premature drop.",
+    "source_sections": ["Citrus Canker"]
+    },
+    {
+    "id": 33,
+    "difficulty": "medium",
+    "category": "treatment",
+    "question": "Which fungicide group is effective against melanose besides copper?",
+    "ground_truth_answer": "Strobilurin fungicides like Azoxystrobin.",
+    "source_sections": ["Citrus Melanose"]
+    },
+    {
+    "id": 34,
+    "difficulty": "hard",
+    "category": "comparison",
+    "question": "How does anthracnose differ from melanose in symptom pattern?",
+    "ground_truth_answer": "Anthracnose causes twig dieback and leaf blight on weak tissues, while melanose mainly causes superficial fruit and leaf blemishes.",
+    "source_sections": ["Anthracnose", "Melanose"]
+    },
+    {
+    "id": 35,
+    "difficulty": "medium",
+    "category": "prevention",
+    "question": "Why should infected nursery stock be avoided in citrus orchards?",
+    "ground_truth_answer": "Because diseases like canker and Phytophthora can spread through infected planting material.",
+    "source_sections": ["Canker Prevention", "Phytophthora Prevention"]
+    },
+    
+    {
+    "id": 36,
+    "difficulty": "hard",
+    "category": "stress_test",
+    "question": "Lesions appear after heavy rain, tree has leafminer damage and yellow halos on fruit. What integrated management is needed?",
+    "ground_truth_answer": "Control leafminer, apply copper + streptomycin sprays, and prune infected twigs to manage citrus canker.",
+    "source_sections": ["Citrus Canker – IPM"]
+    },
+    {
+    "id": 37,
+    "difficulty": "medium",
+    "category": "mechanism",
+    "question": "Why are young orchards more vulnerable to citrus scab?",
+    "ground_truth_answer": "Because young trees produce more tender flush which is highly susceptible to infection.",
+    "source_sections": ["Citrus Scab"]
+    },
+    {
+    "id": 38,
+    "difficulty": "easy",
+    "category": "diagnosis",
+    "question": "What disease is also called foot rot in citrus?",
+    "ground_truth_answer": "Phytophthora Gummosis.",
+    "source_sections": ["Phytophthora Gummosis"]
+    },
+    {
+    "id": 39,
+    "difficulty": "medium",
+    "category": "treatment",
+    "question": "What is recommended after scraping gummosis lesions on trunk?",
+    "ground_truth_answer": "Apply copper oxychloride paste or Bordeaux paste on the cleaned area.",
+    "source_sections": ["Phytophthora Gummosis"]
+    },
+    {
+    "id": 40,
+    "difficulty": "hard",
+    "category": "stress_test",
+    "question": "Farmer reports fruit blemish only cosmetic, no halo, after rainy season and many dead twigs present. Should antibiotics be recommended?",
+    "ground_truth_answer": "No. This is likely melanose which is fungal; management should focus on pruning and copper sprays, not antibiotics.",
+    "source_sections": ["Melanose", "Canker Chemical Control"]
+    },
+    
+    {
+    "id": 41,
+    "difficulty": "medium",
+    "category": "diagnosis",
+    "question": "What symptom suggests anthracnose rather than nutrient deficiency?",
+    "ground_truth_answer": "Twig dieback with dead leaves hanging and black fungal specks on necrotic tissue.",
+    "source_sections": ["Anthracnose"]
+    },
+    {
+    "id": 42,
+    "difficulty": "hard",
+    "category": "comparison",
+    "question": "How would you distinguish between scab and melanose on fruit?",
+    "ground_truth_answer": "Scab causes raised corky wart-like lesions often distorting fruit; melanose causes small sandpaper-like dark specks without distortion.",
+    "source_sections": ["Scab", "Melanose"]
+    },
+    {
+    "id": 43,
+    "difficulty": "medium",
+    "category": "mechanism",
+    "question": "Why should copper not be sprayed during very hot weather?",
+    "ground_truth_answer": "Because it can cause phytotoxicity such as leaf burn.",
+    "source_sections": ["Melanose – Chemical Control"]
+    },
+    {
+    "id": 44,
+    "difficulty": "easy",
+    "category": "diagnosis",
+    "question": "What disease is associated with gum exudation and bark cracking?",
+    "ground_truth_answer": "Phytophthora Gummosis.",
+    "source_sections": ["Phytophthora"]
+    },
+    {
+    "id": 45,
+    "difficulty": "medium",
+    "category": "treatment",
+    "question": "Which biological control agent is recommended in soil for Phytophthora management?",
+    "ground_truth_answer": "Trichoderma harzianum.",
+    "source_sections": ["Phytophthora – Biological Control"]
+    },
+    
+    {
+    "id": 46,
+    "difficulty": "hard",
+    "category": "stress_test",
+    "question": "If a tree shows yellowing and dieback but no visible lesions, which root diseases should be investigated?",
+    "ground_truth_answer": "Phytophthora root rot or Dry Root Rot should be investigated.",
+    "source_sections": ["Phytophthora", "Dry Root Rot"]
+    },
+    {
+    "id": 47,
+    "difficulty": "medium",
+    "category": "prevention",
+    "question": "How can mulch application help prevent dry root rot?",
+    "ground_truth_answer": "It moderates soil temperature and moisture, reducing drought stress that predisposes roots to infection.",
+    "source_sections": ["Dry Root Rot"]
+    },
+    {
+    "id": 48,
+    "difficulty": "easy",
+    "category": "diagnosis",
+    "question": "What fungal disease gives fruit a sandpaper-like texture?",
+    "ground_truth_answer": "Citrus Melanose.",
+    "source_sections": ["Melanose"]
+    },
+    {
+    "id": 49,
+    "difficulty": "hard",
+    "category": "comparison",
+    "question": "Which disease is more likely to kill a citrus tree: melanose or gummosis? Why?",
+    "ground_truth_answer": "Phytophthora gummosis, because it attacks roots and trunk causing girdling and tree death, whereas melanose is mostly cosmetic.",
+    "source_sections": ["Melanose", "Phytophthora"]
+    },
+    {
+    "id": 50,
+    "difficulty": "medium",
+    "category": "mechanism",
+    "question": "Why does citrus scab spread rapidly during monsoon?",
+    "ground_truth_answer": "Because spores are dispersed by rain-splash and young tissues are highly susceptible during wet conditions.",
+    "source_sections": ["Citrus Scab"]
+    }
+    ]
+    
