@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+python-multipart
+torch
+torchvision
+transformers
+Pillow
+pinecone
+pymupdf
+python-dotenv
+httpx
+aiofiles
